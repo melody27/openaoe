@@ -1,0 +1,20 @@
+# IDE related
+.idea
+*.iml
+
+# frontend ignore
+*/node_modules
+*/frontend/package-lock.json
+*/frontend/node_modules
+
+# backend ignore
+*/backend/config/config.yaml
+config_test.yaml
+
+# pip related
+*.pyc
+/build
+/dist
+*.egg-info
+out
+gen
